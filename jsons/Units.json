@@ -1,17 +1,29 @@
 [
-	{
-		"name": "Phasers",
+{
+			"name": "Army Engineers",
 		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
+		"uniqueTo": "American High Command",
+		"replaces": "Warrior",
+		"movement": 4,
+		"strength": 15,
+		"range": 1,
+		"cost": 40,
+		"uniques": ["Can build [Land] improvements on tiles"]
+		"promotions": ["Barrage I", "Ignore terrain cost"],
+		"attackSound": "shot"
+	}
+		
+	{
+			"name": "Army Rangers",
+		"unitType": "Ranged",
+		"uniqueTo": "American High Command",
+		"replaces": "Scout",
+		"movement": 8,
+		"strength": 15,
 		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+		"cost": 40,
+		"uniques": ["May Paradrop up to [3] tiles from inside friendly territory", "Can move after attacking"]
+		"promotions": ["Barrage I", "Ignore terrain cost"],
+		"attackSound": "shot"
 	}
 ]
